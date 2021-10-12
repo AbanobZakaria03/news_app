@@ -62,6 +62,7 @@ class _HomePageState extends State<HomePage> {
       statusBarColor: Colors.blue, //or set color with: Color(0xFF0000FF)
     ));
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'News Cloud',
       theme: ThemeData(
         primarySwatch: Colors.blue,

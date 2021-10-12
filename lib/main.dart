@@ -19,16 +19,3 @@ void main() {
     child: HomePage(),
   ));
 }
-
-class NewsCloud extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'News Cloud',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: DetailScreen(),
-    );
-  }
-}
